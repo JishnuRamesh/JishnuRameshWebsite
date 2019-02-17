@@ -5,16 +5,40 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+
+    <div className="row"   style={{overflow:"hidden"}}>
+
+    <div className="home-menu col-md-4"  style={{overflow:"hidden"}}>
+
+    <Link to="/" style={{textDecoration:"none", display:"block", color:"black"}} className="home-menu-items" >Home</Link>
+    <Link to="/about/"  style={{textDecoration:"none", display:"block"}} className="home-menu-items" >About</Link>
+    <Link to="/page-2/"  style={{textDecoration:"none", display:"block"}} className="home-menu-items" >Projects</Link>
+    <Link to="/page-2/"  style={{textDecoration:"none", display:"block"}} className="home-menu-items"  >Contact</Link>
+    
+
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
+
+
+    <div className="col-md-8 main-text text-center" style={{overflow:"hidden"}}>
+    
+    <h1 className="name-first no-bottom-margin">JISHNU</h1>
+    <h1 className="name-second no-bottom-margin" style={{marginTop:0+"px"}}>RAMESH</h1>
+
+    <p className="program-lang"> I love coding in 
+      <span className="program-lang-1">&nbsp;Python </span>
+      <span className="program-lang-2">&nbsp;Javascript </span>
+    </p>
+    
+    </div>
+
+
+
+    </div>
+
   </Layout>
 )
 

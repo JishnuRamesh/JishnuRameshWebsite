@@ -3,9 +3,96 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
-body {
-  margin: 0;
+
+
+.pages{
+  background-image: url("../images/pages-background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: fixed; top: 0; left: 0; right: 0; bottom: 0; min-width: 100%; min-height: 100%;
+
 }
+
+
+@media only screen and (min-width:769px) {
+
+.home {
+  background-image: url("../images/background-home.png");
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: fixed; top: 0; left: 0; right: 0; bottom: 0; min-width: 100%; min-height: 100%;
+
+}
+
+.mobile-menu{
+  display: none;
+}
+
+
+}
+
+
+@media only screen and (max-width:768px) {
+
+  .home {
+    background-image: url("../images/background-small.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    overflow-x: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: fixed; top: 0; left: 0; right: 0; bottom: 0; min-width: 100%; min-height: 100%;
+  }
+
+  h1 {
+    font-size: 10px;
+  }
+
+  .mobile-menu{
+    display: none;
+  }
+  
+
+
+}
+
+
+@media only screen and (max-width:600px) {
+
+  .home {
+    background-image: url("../images/mobile-backgrund-small.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    overflow-x: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: fixed; top: 0; left: 0; right: 0; bottom: 0; min-width: 100%; min-height: 100%;
+  }
+
+  h1 {
+    font-size: 10px;
+  }
+
+  .mobile-menu{
+    display: block;
+    position: absolute;
+    top:15px;
+    right:10px;
+  }
+
+
+}
+
+
+
+
+
 article,
 aside,
 details,
@@ -196,7 +283,7 @@ html {
 *:after {
   box-sizing: inherit;
 }
-body {
+.home {
   color: hsla(0, 0%, 0%, 0.8);
   font-family: georgia, serif;
   font-weight: normal;
@@ -617,4 +704,435 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+
+@media only screen and (min-width:769px) {
+
+
+.home-menu {
+
+  position: absolute;
+  top: 38vh;
+  left:28vw;
+  text-align: right;
+
+}
+
+
+.home-menu-items {
+
+
+  margin-top: 5px;
+  color: #fa8017;
+  font-size: 0.95em;
+ 
+  
+}
+
+.home-menu-items:hover{
+
+  color:#999;
+}
+
+
+}
+
+
+
+@media screen and (max-width:600px) {
+
+  
+.home-menu {
+
+ display: none;
+
+}
+
+
+.home-menu-items {
+
+
+  margin-top: 5px;
+  color: #fa8017;
+  font-size: 0.95em;
+ 
+  
+}
+
+.home-menu-items:hover{
+
+  color:#999;
+}
+
+
+}
+
+
+
+@media only screen and (max-width:768px) {
+
+  
+.home-menu {
+
+  position: absolute;
+  top: 38vh;
+  left:5vw;
+  text-align: right;
+
+}
+
+
+.home-menu-items {
+
+
+  margin-top: 5px;
+  color: #fa8017;
+  font-size: 0.95em;
+ 
+  
+}
+
+.home-menu-items:hover{
+
+  color:#999;
+}
+
+
+}
+
+
+
+@media only screen and (min-width:1300px) {
+
+
+
+  .main-text{
+
+    position: absolute;
+    right: 19vw;
+    top:34vh;
+    font-size: 1.9em;
+    color:white;
+    
+  
+  }
+
+  h1{
+    font-size: 2.8em;
+  }
+  
+
+
+}
+
+
+
+
+@media only screen and (max-width:1299px) {
+
+  .main-text{
+
+    position: absolute;
+    right: 14vw;
+    top:34vh;
+    font-size: 1.8em;
+    color:white;
+    
+  
+  }
+  
+
+  h1{
+    font-size: 2.8em;
+  }
+  
+
+
+  
+}
+
+
+@media only screen and (max-width:999px) {
+
+  .main-text{
+
+    position: absolute;
+    right: 14vw;
+    top:34vh;
+    font-size: 1.5em;
+    color:white;
+    
+  
+  }
+
+
+  h1{
+    font-size: 2.8em;
+  }
+  
+
+  
+}
+
+@media only screen and (max-width:899px) {
+
+  .main-text{
+
+    position: absolute;
+    right: 10vw;
+    top:34vh;
+    font-size: 1.4em;
+    color:white;
+    
+  
+  }
+
+  h1{
+    font-size: 2.8em;
+  }
+  
+
+
+
+
+  
+}
+
+@media only screen and (max-width:799px) {
+
+  .main-text{
+
+    position: absolute;
+    right: 14vw;
+    top:34vh;
+    font-size: 1.4em;
+    color:white;
+    
+  
+  }
+
+  
+  h1{
+    font-size: 2.4em;
+  }
+  
+
+
+
+  
+}
+
+@media only screen and (max-width:768px) {
+
+
+  .main-text{
+
+    position: absolute;
+    left:34vw;
+    top:34vh;
+    font-size: 1.4em;
+    color:white;
+    
+  
+  }
+
+  h1{
+    font-size: 2.7em;
+  }
+  
+
+
+  
+}
+
+@media only screen and (max-width:600px) {
+
+
+  .main-text{
+
+    position: absolute;
+    left:30vw;
+    top:38vh;
+    font-size: 1.4em;
+    color:white;
+    
+  
+  }
+
+  h1{
+    font-size: 2.5em;
+  }
+  
+
+
+  
+}
+
+
+@media only screen and (max-width:424px) {
+
+
+  .main-text{
+
+    position: absolute;
+    left:38vw;
+    top:38vh;
+    font-size: 1.4em;
+    color:white;
+    
+  
+  }
+
+  h1{
+    font-size: 1.8em
+  }
+  
+
+
+  
+}
+
+
+@media only screen and (max-width:374px) {
+
+
+  .main-text{
+
+    position: absolute;
+    left:45vw;
+    top:40vh;
+    font-size: 1.4em;
+    color:white;
+    
+  
+  }
+
+  h1{
+    font-size: 1.4em
+  }
+  
+
+
+  
+}
+
+
+
+@media screen and (max-width:600px) {
+
+
+  .logo-orange{display: none}
+  .logo-black{display:block}
+
+
+}
+
+
+@media screen and (min-width:601px) {
+
+  
+  .logo-black{display: none}
+  .logo-orange{display:block}
+
+}
+
+
+
+.logo-orange:hover::after {
+  content: "Jishnu Ramesh ";
+  position: absolute;
+  margin-top: 20px;
+  font-size:.5em;
+  color: #fa8017;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid black;/* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  animation: 
+    typing 5s steps(40, end),
+    blink-caret 0.5s step-end infinite;
+
+}
+
+
+
+
+
+
+
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 14% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+}
+
+
+.no-bottom-margin {
+  margin-bottom: 0px;
+  line-height: .9;
+}
+
+
+.program-lang {
+
+  margin-top: 20px;
+  font-size: .6em;
+  position: relative;
+  left: 0.4vw;
+ 
+}
+
+
+
+.program-lang-1{
+  position: absolute;
+}
+
+
+.program-lang-1{
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate-reverse;  
+}
+
+
+.program-lang-2{
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate;
+}
+
+@keyframes fade{
+  0%,50% {
+    opacity: 0;
+}
+  100%{
+    opacity: 1;
+}
+}
+
+
+
+
+.mobile-menu-links > a {
+  color: white;
+  text-decoration: none
+
+}
+
+.mobile-menu-links > a:hover {
+  color:#999;
+  text-decoration: none
+  
 }

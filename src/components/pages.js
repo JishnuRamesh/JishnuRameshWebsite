@@ -4,13 +4,12 @@ import { StaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import MobileMenu from "../components/hamburger"
-import "./layout.css"
 
 
-const Layout = ({ children }) => (
+const PagesLayout = ({ children }) => (
   <StaticQuery
     query={graphql`
-      query SiteTitleQuery {
+      query SiteTitleQuery1 {
         site {
           siteMetadata {
             title
@@ -19,9 +18,8 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-
       <>
-        <div className="home">
+      <div className="pages">
         <Header siteTitle={data.site.siteMetadata.title} />
         <div className="container"
         >
@@ -42,8 +40,8 @@ const Layout = ({ children }) => (
   />
 )
 
-Layout.propTypes = {
+PagesLayout.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-export default Layout
+export default PagesLayout
