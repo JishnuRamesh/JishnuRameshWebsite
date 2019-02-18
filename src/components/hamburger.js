@@ -45,8 +45,8 @@ class MobileMenu extends React.Component {
                     <Link to="/" style={{textDecoration:"none", display:"block"}} >
                     Home</Link>
                     <Link to="/about/"  style={{textDecoration:"none", display:"block"}} >About</Link>
-                    <Link to="/page-2/"  style={{textDecoration:"none", display:"block"}} >Projects</Link>
-                    <Link to="/page-2/"  style={{textDecoration:"none", display:"block"}}  >Contact</Link>
+                    <Link to="/projects/"  style={{textDecoration:"none", display:"block"}} >Projects</Link>
+                    <Link to="/contact/"  style={{textDecoration:"none", display:"block"}}  >Contact</Link>
     
                     </div>
 

@@ -16,8 +16,8 @@ const IndexPage = () => (
 
     <Link to="/" style={{textDecoration:"none", display:"block", color:"black"}} className="home-menu-items" >Home</Link>
     <Link to="/about/"  style={{textDecoration:"none", display:"block"}} className="home-menu-items" >About</Link>
-    <Link to="/page-2/"  style={{textDecoration:"none", display:"block"}} className="home-menu-items" >Projects</Link>
-    <Link to="/page-2/"  style={{textDecoration:"none", display:"block"}} className="home-menu-items"  >Contact</Link>
+    <Link to="/projects/"  style={{textDecoration:"none", display:"block"}} className="home-menu-items" >Projects</Link>
+    <Link to="/contact/"  style={{textDecoration:"none", display:"block"}} className="home-menu-items"  >Contact</Link>
     
 
     </div>
