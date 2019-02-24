@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
+import PagesHeader from "./Pagesheader"
 import MobileMenu from "../components/hamburger"
 
 
@@ -20,9 +20,9 @@ const PagesLayout = ({ children }) => (
     render={data => (
       <>
       <div className="pages">
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <div className="container"
-        >
+        <PagesHeader siteTitle={data.site.siteMetadata.title} />
+        <div className="container">
+        
           <main>{children}</main>
           
         </div>

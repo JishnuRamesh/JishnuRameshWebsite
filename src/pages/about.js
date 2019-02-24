@@ -8,15 +8,29 @@ import SEO from "../components/seo"
 const AboutPage = () => (
   <Pages>
     <SEO title="About" />
+    <div className="side-menu">
+    
+    <div className="about-menu col-md-4"  style={{overflow:"hidden"}}>
+
+    <Link to="/" style={{textDecoration:"none", display:"block"}} className="about-menu-items" >Home</Link>
+    <Link to="/about/"  style={{textDecoration:"none", display:"block",  color:"white"}} className="about-menu-items" >About</Link>
+    <Link to="/projects/"  style={{textDecoration:"none", display:"block"}} className="about-menu-items" >Projects</Link>
+    <Link to="/contact/"  style={{textDecoration:"none", display:"block"}} className="about-menu-items"  >Contact</Link>
+    
+
+    </div>
+    
+    </div>
+    <div className="main-content">
     <h1>ABOUT ME </h1>
-    <p>I am an aspiring software developer. I mostly code in Python and Javascript </p>
-    <p> Currently i'm pursuing my Master's in Information Technology at Monash Univeristy.
+    <p className="justify">I am an aspiring software developer. I mostly code in Python and Javascript </p>
+    <p  className="justify"> Currently i'm pursuing my Master's in Information Technology at Monash Univeristy.
     I completed my undergraduete in Electronics and Telecommunication Engineering from Kerala Univeristy in India</p>
-    <p> My favorite stack right now js React.Js on the frontend and ASP.Net in the backend. I have also worked with Java, Mongo DB, Django</p>
-    <p> Previously i used to work as a software test engineer as a contract employee for Intel Co-operation</p>
-    <p> During my off time i love to watch football. I am an avid Manchster United Fan</p>
+    <p  className="justify"> My favorite stack right now js React.Js on the frontend and ASP.Net in the backend. I have also worked with Java, Mongo DB, Django</p>
+    <p  className="justify"> Previously i used to work as a software test engineer as a contract employee for Intel Co-operation</p>
+    <p  className="justify"> During my off time i love to watch football. I am an avid Manchster United Fan</p>
     <Link to="/">Go back to the homepage</Link>
- 
+    </div>
   </Pages>
 )
 
