@@ -834,7 +834,7 @@ pre tt:after {
   }
 
   h1{
-    font-size: 2.8em;
+    font-size: 2.8em!important;
   }
   
 
@@ -859,7 +859,7 @@ pre tt:after {
   
 
   h1{
-    font-size: 2.8em;
+    font-size: 2.8em!important;
   }
   
 
@@ -883,7 +883,7 @@ pre tt:after {
 
 
   h1{
-    font-size: 2.8em;
+    font-size: 2.8em!important;
   }
   
 
@@ -904,7 +904,7 @@ pre tt:after {
   }
 
   h1{
-    font-size: 2.8em;
+    font-size: 2.8em!important;
   }
   
 
@@ -929,7 +929,7 @@ pre tt:after {
 
   
   h1{
-    font-size: 2.4em;
+    font-size: 2.4em!important;
   }
   
 
@@ -953,7 +953,7 @@ pre tt:after {
   }
 
   h1{
-    font-size: 2.7em;
+    font-size: 2.7em!important;
   }
   
 
@@ -976,7 +976,7 @@ pre tt:after {
   }
 
   h1{
-    font-size: 2.5em;
+    font-size: 2.5em!important;
   }
   
 
@@ -1000,7 +1000,7 @@ pre tt:after {
   }
 
   h1{
-    font-size: 1.8em
+    font-size: 1.8em!important;
   }
   
 
@@ -1024,7 +1024,7 @@ pre tt:after {
   }
 
   h1{
-    font-size: 1.4em
+    font-size: 1.4em!important;
   }
   
 
@@ -1269,8 +1269,57 @@ pre tt:after {
 
 .about-menu-items:hover{
 
-  color:#999;
+  color:#666
+  
+  
 }
 
 
 }
+
+
+@media screen and (max-width:600px) {
+
+
+  .about-me {
+
+  margin-top: 60px;
+  }
+
+
+}
+
+
+/* Jumbotron and project pages */
+
+.jumbotron {
+
+
+  background-color: #eee;
+
+
+}
+
+/* Contact page */ 
+
+.font-awesome-icons {
+
+font-size: 4rem;
+margin: 20px;
+color: #222;
+
+}
+
+
+.font-awesome-icons:hover{
+
+text-decoration: none;
+
+}
+
+.no-hover:hover {
+
+  text-decoration: none;
+
+}
+

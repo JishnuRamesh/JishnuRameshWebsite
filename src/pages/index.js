@@ -12,7 +12,7 @@ const IndexPage = () => (
 
     <div className="row"   style={{overflow:"hidden"}}>
 
-    <div className="home-menu col-md-4"  style={{overflow:"hidden"}}>
+    <div className="home-menu"  style={{overflow:"hidden"}}>
 
     <Link to="/" style={{textDecoration:"none", display:"block", color:"black"}} className="home-menu-items" >Home</Link>
     <Link to="/about/"  style={{textDecoration:"none", display:"block"}} className="home-menu-items" >About</Link>
@@ -23,7 +23,7 @@ const IndexPage = () => (
     </div>
 
 
-    <div className="col-md-8 main-text text-center" style={{overflow:"hidden"}}>
+    <div className="main-text" style={{overflow:"hidden"}}>
     
     <h1 className="name-first no-bottom-margin">JISHNU</h1>
     <h1 className="name-second no-bottom-margin" style={{marginTop:0+"px"}}>RAMESH</h1>
