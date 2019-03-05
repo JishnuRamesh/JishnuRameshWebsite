@@ -991,9 +991,9 @@ pre tt:after {
   .main-text{
 
     position: absolute;
-    left:38vw;
+    left:30vw;
     top:38vh;
-    font-size: 1.4em;
+    font-size: 1.6em;
     color:white;
     
   
@@ -1015,9 +1015,9 @@ pre tt:after {
   .main-text{
 
     position: absolute;
-    left:45vw;
-    top:40vh;
-    font-size: 1.4em;
+    left:32vw;
+    top:38vh;
+    font-size: 1.6em;
     color:white;
     
   
