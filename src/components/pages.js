@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
-import PagesHeader from "./Pagesheader"
+import PagesHeader from "./pagesHeader";
 import MobileMenu from "../components/hamburger"
 
 
