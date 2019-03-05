@@ -1,6 +1,6 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://www.gatsbyjs.org">
+  <a href="https://jishnuramesh.dev/">
     <img alt="Jishnu Ramesh" src="https://jishnuramesh.dev/static/JR%20Logo_Colour-ca483b42c5f8ba04cc1458692016b157.png" width="60" />
   </a>
 </p>
